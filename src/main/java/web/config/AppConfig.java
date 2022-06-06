@@ -57,7 +57,7 @@ public class AppConfig {
         Properties properties = new Properties();
         properties.setProperty("hibernate.dialect.MySQLDialect", environment.getProperty("hibernate.dialect.MySQLDialect"));
         properties.setProperty("hibernate.hbm2ddl.auto", environment.getProperty("hibernate.hbm2ddl.auto"));
-        properties.setProperty("hibernate.hbm2ddl.import_files", environment.getProperty("hibernate.hbm2ddl.import_files"));
+        //properties.setProperty("hibernate.hbm2ddl.import_files", environment.getProperty("hibernate.hbm2ddl.import_files"));
         return properties;
     }
 }
